@@ -3,7 +3,7 @@
  * main - entry point
  * Return: 0
  */
-int main(voi)
+int main(void)
 {
 	char ch = 'a';
 	while (ch <= 'z')
@@ -14,4 +14,5 @@ int main(voi)
 			ch++;
 	}
 	putchar('\n');
+	return (0);
 }
