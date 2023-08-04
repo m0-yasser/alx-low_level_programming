@@ -7,8 +7,13 @@ include "main.h"
 
 int print_last_digit(int i)
 {
+	int last;
+
 if (i < 0)
-	i = i * -1;
-	_putchar((i % 10) + '0');
-	return (i % 10);
+	last = -1 * (i % 10);
+else
+	last = i % 10;
+
+	putchar(last + '0');
+	return (last);
 }
