@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - func that takes pointer to an int
- * @*n: the pointer
+ * @n: the parameter
  * Return: nothing
  */
 
