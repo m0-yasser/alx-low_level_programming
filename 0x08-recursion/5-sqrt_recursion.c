@@ -13,11 +13,11 @@ int square(int x, int y)
 		return (y);
 	if (y * y > x)
 		return (-1);
-	return (square(x, y+1));
+	return (square(x, y + 1));
 }
 
 /**
- * _sqrt_recursiom - return square
+ * _sqrt_recursion - return square
  * @n: input number
  * Return: 1
  */
