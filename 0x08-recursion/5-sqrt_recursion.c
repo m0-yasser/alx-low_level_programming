@@ -9,8 +9,8 @@
 
 int square(int x, int y)
 {
-	if (y * y = x)
-		return (b);
+	if (y * y == x)
+		return (y);
 	if (y * y > x)
 		return (-1);
 	return (square(x, y+1));
