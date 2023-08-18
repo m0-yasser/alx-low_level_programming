@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "holberton.h"
+
 
 /**
  * main - Program that takes first two integer arguments and prints the product
@@ -9,7 +9,7 @@
  * Return: 1 if not enough arguments passed in, 0 otherwise
  */
 
-0int main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, j;
 
