@@ -1,17 +1,16 @@
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
- * init_dog - initialize a dog
- * @d: the dog
- * @name: dog's name
- * @age: dog's age
- * @owner: dog's owner
+ * init_dog - Entry point
+ * @d: passing structure at the function
+ * @name: store a strig for main
+ * @age: store a number for main
+ * @owner: store a strig for main
  */
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (dog)
+	if (d != NULL)
 	{
 		d->name = name;
 		d->age = age;
